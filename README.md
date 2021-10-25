@@ -1,5 +1,6 @@
 # Simple proof of concept for a jobs platform
 The application is a Spring Boot backend with a Vue frontend packaged as a single jar.
+Frontend is located in /src/frontend and was generated using the Vue CLI.
 
 ## Running the backend
 For development mode, it's nice to run the backend separately as the frontend. 
