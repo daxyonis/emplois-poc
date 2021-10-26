@@ -8,7 +8,7 @@
       </p>
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">Expire le {{ job.expiryDate }}</li>
+      <li class="list-group-item">Postulez avant le {{ job.expiryDate }}</li>
     </ul>
   </div>
 </template>

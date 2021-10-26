@@ -6,7 +6,7 @@
         <h2>Emplois récents</h2>
       </div>
     </div>
-    <div class="row row-cols-4 g-4">
+    <div class="row row-cols-5 g-4">
       <div class="col" v-for="job in jobs" :key="job.id">
         <JobListing :job="job" />
       </div>
