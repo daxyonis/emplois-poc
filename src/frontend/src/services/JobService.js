@@ -13,4 +13,7 @@ export default {
   getJobs() {
     return apiClient.get("/job");
   },
+  findJobs(query) {
+    return apiClient.get(`/job?${query}`);
+  },
 };

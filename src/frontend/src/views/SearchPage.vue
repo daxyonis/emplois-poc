@@ -1,10 +1,8 @@
 <template>
   <div class="container-fluid">
     <SearchBox />
-    <div class="row">
-      <div class="col text-center p-4">
-        <h2>Emplois récents</h2>
-      </div>
+    <div class="d-flex justify-content-center pt-1">
+      <h1>Search results</h1>
     </div>
     <div class="row row-cols-5 g-4">
       <div class="col" v-for="job in jobs" :key="job.id">
@@ -15,13 +13,12 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import SearchBox from "@/components/SearchBox.vue";
 import JobListing from "@/components/JobListing.vue";
-import JobService from "@/services/JobService.js";
+//import JobService from "@/services/JobService.js";
 
 export default {
-  name: "Home",
+  name: "Search",
   components: {
     SearchBox,
     JobListing,
@@ -31,15 +28,7 @@ export default {
       jobs: null,
     };
   },
-
-  created() {
-    JobService.getJobs()
-      .then((response) => {
-        this.jobs = response.data;
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  },
 };
 </script>
+
+<style></style>

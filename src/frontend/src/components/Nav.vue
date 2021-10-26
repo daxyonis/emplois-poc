@@ -6,7 +6,7 @@
       >
     </li>
     <li class="nav-item">
-      <router-link class="nav-link" active-class="active" to="/about"
+      <router-link class="nav-link" active-class="active" to="/search"
         >A Propos</router-link
       >
     </li>
