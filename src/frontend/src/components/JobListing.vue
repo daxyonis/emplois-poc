@@ -1,5 +1,5 @@
 <template>
-  <div class="card" style="width: 18rem">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">{{ job.jobDescription }}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{{ job.organizationName }}</h6>
@@ -21,5 +21,3 @@ export default {
   },
 };
 </script>
-
-<style></style>

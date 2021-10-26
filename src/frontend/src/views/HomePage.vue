@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <Search />
-    <div class="row row-cols-3 row-cols-md-2 g-4">
+    <div class="row row-cols-4 g-4">
       <div class="col" v-for="job in jobs" :key="job.id">
         <JobListing :job="job" />
       </div>
