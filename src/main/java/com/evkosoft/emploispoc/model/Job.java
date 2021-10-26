@@ -14,6 +14,7 @@ public class Job {
 	private Long id;
 	private String organizationName;
 	//private String organizationDescription;
+	private String jobTitle;
 	private String jobDescription;
 	//private String candidateDescription;
     private LocalDate expiryDate;    

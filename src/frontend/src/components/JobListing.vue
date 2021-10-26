@@ -1,10 +1,10 @@
 <template>
   <div class="card h-100">
     <div class="card-body">
-      <h5 class="card-title">{{ job.jobDescription }}</h5>
+      <h5 class="card-title">{{ job.jobTitle }}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{{ job.organizationName }}</h6>
       <p class="card-text">
-        Lorem ipsum this is the job description blah blah blah
+        {{ job.jobDescription }}
       </p>
     </div>
     <ul class="list-group list-group-flush">
